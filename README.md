@@ -2,7 +2,7 @@ Shoes Tips Board
 ================
 For the participants of Ruby Programming with Shoes Course on [RubyLearning](http://rubylearning.org/).
 
-If you have tips or wishes, please let me know. The pull requests are fantastic! :-D
+If you have tips or wishes, please let me know. Your pull requests are fantastic! :-D
 
 
 Table of contents
