@@ -1,5 +1,5 @@
-001 horizontal gradation
-========================
+horizontal gradation
+--------------------
 
 Wish
 ----
@@ -14,4 +14,6 @@ Sample code
 
 Snapshot
 --------
-![sample1.png](http://github.com/ashbb/shoes_tips_board/raw/master/images/sample1.png)
+**sample1.png**
+
+![sample1.png](http://github.com/ashbb/shoes_tips_board/raw/master/img/sample1.png)

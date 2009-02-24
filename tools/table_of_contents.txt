@@ -7,11 +7,11 @@ If you have tips or wishes, please let me know. Your pull requests are fantastic
 
 Table of contents
 -----------------
-0. Tips for Shoes Course
-	- [horizontal gradation](http://github.com/ashbb/shoes_tips_board/tree/master/md/00001_horizontal_gradation.md)
-	- [centering elements](http://github.com/ashbb/shoes_tips_board/tree/master/md/00002_centering_elements.md)
-	- [sniffing out FAQ](http://github.com/ashbb/shoes_tips_board/tree/master/md/00003_sniffing_out_FAQ.md)
-	- [using external module](http://github.com/ashbb/shoes_tips_board/tree/master/md/00004_using_external_module.md)
+00000.#Tips for Shoes Course
+00001. horizontal gradation
+00002. centering elements
+00003. sniffing out FAQ
+00004. using external module
 
 
 Change log:
