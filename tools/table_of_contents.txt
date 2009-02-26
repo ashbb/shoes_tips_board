@@ -12,12 +12,13 @@ Table of contents
 00002. centering elements
 00003. sniffing out FAQ
 00004. using external module
+00005. start and stop animation
 
 
 Change log:
 -----------
-
-- Feb 24th, 2009: Recreated from scratch with [easy\_ebook\_maker](http://github.com/ashbb/easy_ebook_maker/tree/master)
+- Feb 25th, 2009: Added the big-html function and chapter 00005
+- Feb 24th, 2009: Recreated from scratch with [Easy eBook Maker](http://github.com/ashbb/easy_ebook_maker/tree/master)
 - Feb 23th, 2009: Open Shoes Tips Board
 
 
