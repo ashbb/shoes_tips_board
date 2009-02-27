@@ -9,15 +9,18 @@ Table of contents
 -----------------
 00000.#Tips for Shoes Course
 00001. horizontal gradation
-00002. centering elements
+00002. To extend methods for a button
 00003. sniffing out FAQ
-00004. using external module
+00004. Ruby Shoes module within Shoes (raisins) 
 00005. start and stop animation
 
 
 Change log:
 -----------
-- Feb 25th, 2009: Added the big-html function and chapter 00005
+- Feb 27th, 2009: Added chapter 2 and 4 written by [Dave (dglnz)](http://github.com/dglnz). 
+- Feb 27th, 2009: Revised `mkmd.rb` to show chapter number on the Table of contents.
+- Feb 27th, 2009: Added `make_gist_link` method to `mkmd.rb`. 
+- Feb 25th, 2009: Added the big-html function and chapter 5
 - Feb 24th, 2009: Recreated from scratch with [Easy eBook Maker](http://github.com/ashbb/easy_ebook_maker/tree/master)
 - Feb 23th, 2009: Open Shoes Tips Board
 
