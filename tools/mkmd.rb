@@ -7,7 +7,7 @@ include EasyEBook
 def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.md'
   open('../md/' + fname, 'w'){|f| f.puts name, '-' * name.length} unless File.exist?('../md/' + fname)
-  line = num[3..4] == '00' ? i.to_s + '. ' : "\t- "
+  line = num[3..4] == '00' ? i.to_s + '. ' : "\t1. "
   line << "[#{name}](#{PATH + '/md/' + fname})"
 end
 
@@ -40,6 +40,11 @@ def make_page_link name
   "[#{fname[6..-4]}](#{PATH + '/md/' + fname})"
 end
 
+def make_gist_link name
+  "**gist: #{name}**" << "\n" * 2 << \
+  '<script src="http://gist.github.com/' << name << '.js"></script>'
+end
+
 
 Dir.glob("../md/*.md").each do |file|
   lines = IO.readlines(file)
@@ -49,6 +54,7 @@ Dir.glob("../md/*.md").each do |file|
       line.sub(/^# *(.*\.rb)/){new_line = read_src($1)}
       line.sub(/^# *(.*\.(png|jpg))/){new_line = make_link($1)}
       line.sub(/^# *page *(prev|next|.*)/){new_line = make_page_link($1)}
+      line.sub(/^# gist: (.*)/){new_line = make_gist_link($1)}
       f.puts new_line
     end
   end
