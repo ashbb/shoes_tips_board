@@ -40,11 +40,17 @@ def make_page_link name
   "[#{fname[6..-4]}](#{PATH + '/md/' + fname})"
 end
 
+=begin
 def make_gist_link name
   "**gist: #{name}**" << "\n" * 2 << \
   '<script src="http://gist.github.com/' << name << '.js"></script>'
 end
+=end
 
+def make_gist_link name
+  "**gist: #{name}**" << "\n" * 2 << \
+  '<http://gist.github.com/' << name << '>'
+end
 
 Dir.glob("../md/*.md").each do |file|
   lines = IO.readlines(file)
